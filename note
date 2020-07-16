@@ -1,0 +1,5 @@
+Repository design pattern: dung interface vi khi muon chuyen database tu mysql sang redis chi can register va doi
+service trong controller
+
+common/components/cache:
+dung de thao tac vs redis sau khi thuc hien cac chuc nang ben mysql

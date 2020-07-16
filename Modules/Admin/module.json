@@ -1,0 +1,19 @@
+{
+    "name": "Admin",
+    "alias": "admin",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Admin\\Providers\\AdminServiceProvider",
+        "Intervention\\Image\\ImageServiceProvider"
+    ],
+    "aliases": {
+        "Image" : "Intervention\\Image\\Facades\\Image"
+    },
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
